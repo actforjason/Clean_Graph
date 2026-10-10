@@ -1886,40 +1886,40 @@ def kro_add_to_graph_mt_editor_menus_32A6D(self, context):
     screen = context.screen
     if not (False):
 
-        op = layout.operator('kro.smart_select_dd961', text='', icon_value=_icons['click.png'].icon_id, emboss=True, depress=False)
-        box_8C66B = layout.box()
-        box_8C66B.alert = False
-        box_8C66B.enabled = True
-        box_8C66B.active = True
-        box_8C66B.use_property_split = False
-        box_8C66B.use_property_decorate = False
-        box_8C66B.alignment = 'Center'.upper()
-        box_8C66B.scale_x = 1.2999999523162842
-        box_8C66B.scale_y = 1.0
-        box_8C66B.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_8C66B.operator('kro.select_group_36c8d', text='', icon_value=_icons['Tomato.png'].icon_id, emboss=True, depress=False)
-        layout.separator(factor=1.0)
-        box_15374 = layout.box()
-        box_15374.alert = False
-        box_15374.enabled = True
-        box_15374.active = True
-        box_15374.use_property_split = False
-        box_15374.use_property_decorate = False
-        box_15374.alignment = 'Center'.upper()
-        box_15374.scale_x = 1.2999999523162842
-        box_15374.scale_y = 1.0
-        box_15374.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_15374.operator('kro.move_keyframe_96bb3', text='', icon_value=_icons['arrows.png'].icon_id, emboss=False, depress=False)
-        box_9276E = layout.box()
-        box_9276E.alert = False
-        box_9276E.enabled = True
-        box_9276E.active = True
-        box_9276E.use_property_split = False
-        box_9276E.use_property_decorate = False
-        box_9276E.alignment = 'Center'.upper()
-        box_9276E.scale_x = 1.2999999523162842
-        box_9276E.scale_y = 1.0
-        box_9276E.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+        # op = layout.operator('kro.smart_select_dd961', text='', icon_value=_icons['click.png'].icon_id, emboss=True, depress=False)
+        # box_8C66B = layout.box()
+        # box_8C66B.alert = False
+        # box_8C66B.enabled = True
+        # box_8C66B.active = True
+        # box_8C66B.use_property_split = False
+        # box_8C66B.use_property_decorate = False
+        # box_8C66B.alignment = 'Center'.upper()
+        # box_8C66B.scale_x = 1.2999999523162842
+        # box_8C66B.scale_y = 1.0
+        # box_8C66B.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+        # op = box_8C66B.operator('kro.select_group_36c8d', text='', icon_value=_icons['Tomato.png'].icon_id, emboss=True, depress=False)
+        # layout.separator(factor=1.0)
+        # box_15374 = layout.box()
+        # box_15374.alert = False
+        # box_15374.enabled = True
+        # box_15374.active = True
+        # box_15374.use_property_split = False
+        # box_15374.use_property_decorate = False
+        # box_15374.alignment = 'Center'.upper()
+        # box_15374.scale_x = 1.2999999523162842
+        # box_15374.scale_y = 1.0
+        # box_15374.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+        # op = box_15374.operator('kro.move_keyframe_96bb3', text='', icon_value=_icons['arrows.png'].icon_id, emboss=False, depress=False)
+        # box_9276E = layout.box()
+        # box_9276E.alert = False
+        # box_9276E.enabled = True
+        # box_9276E.active = True
+        # box_9276E.use_property_split = False
+        # box_9276E.use_property_decorate = False
+        # box_9276E.alignment = 'Center'.upper()
+        # box_9276E.scale_x = 1.2999999523162842
+        # box_9276E.scale_y = 1.0
+        # box_9276E.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
         op = box_9276E.operator('kro.d_kropkey_a83f0', text='', icon_value=_icons['Farqw.png'].icon_id, emboss=False, depress=False)
         layout.separator(factor=1.0)
         box_18143 = layout.box()
@@ -1958,79 +1958,79 @@ def kro_add_to_graph_mt_editor_menus_32A6D(self, context):
    
 
 
-        layout.separator(factor=1.0)
-        layout.prop(context.scene, "frame_current", text="")
+        # layout.separator(factor=1.0)
+        # layout.prop(context.scene, "frame_current", text="")
             
   
 
-        row = layout.row(align=True)
-        row.prop(tool_settings, "use_keyframe_insert_auto", text="", toggle=True)
-        sub = row.row(align=True)
-        sub.active = tool_settings.use_keyframe_insert_auto
-        layout.separator_spacer()
-
-        box_3CED6 = layout.box()
-        box_3CED6.alert = False
-        box_3CED6.enabled = True
-        box_3CED6.active = True
-        box_3CED6.use_property_split = False
-        box_3CED6.use_property_decorate = False
-        box_3CED6.alignment = 'Expand'.upper()
-        box_3CED6.scale_x = 1.2400000095367432
-        box_3CED6.scale_y = 1.0
-        box_3CED6.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_3CED6.operator('kro.jump_to_endpiont_451b5', text='', icon='TRIA_LEFT_BAR', emboss=True, depress=False)
-        box_EFCF2 = layout.box()
-        box_EFCF2.alert = False
-        box_EFCF2.enabled = True
-        box_EFCF2.active = True
-        box_EFCF2.use_property_split = False
-        box_EFCF2.use_property_decorate = False
-        box_EFCF2.alignment = 'Expand'.upper()
-        box_EFCF2.scale_x = 1.2999999523162842
-        box_EFCF2.scale_y = 1.0
-        box_EFCF2.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_EFCF2.operator('kro.jump_to_keyframe_802e7', text='', icon='PREV_KEYFRAME', emboss=False, depress=False)
-        box_DFCA7 = layout.box()
-        box_DFCA7.alert = False
-        box_DFCA7.enabled = True
-        box_DFCA7.active = True
-        box_DFCA7.use_property_split = False
-        box_DFCA7.use_property_decorate = False
-        box_DFCA7.alignment = 'Expand'.upper()
-        box_DFCA7.scale_x = 1.0
-        box_DFCA7.scale_y = 1.0
-        row = layout.row(align=True)
-
-        if not screen.is_animation_playing:
-            row.operator("screen.animation_play", text="", icon="PLAY_REVERSE").reverse = True
-            row.operator("screen.animation_play", text="", icon="PLAY")
-        else:
-            row.scale_x = 1.43
-            row.operator("screen.animation_play", text="", icon="PAUSE")
-
-        box_EF2DC = layout.box()
-        box_EF2DC.alert = False
-        box_EF2DC.enabled = True
-        box_EF2DC.active = True
-        box_EF2DC.use_property_split = False
-        box_EF2DC.use_property_decorate = False
-        box_EF2DC.alignment = 'Expand'.upper()
-        box_EF2DC.scale_x = 1.0
-        box_EF2DC.scale_y = 1.0
-        box_EF2DC.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_EF2DC.operator('kro.play_animation_f_11b2c', text='', icon='NEXT_KEYFRAME', emboss=False, depress=False)
-        box_13B41 = layout.box()
-        box_13B41.alert = False
-        box_13B41.enabled = True
-        box_13B41.active = True
-        box_13B41.use_property_split = False
-        box_13B41.use_property_decorate = False
-        box_13B41.alignment = 'Expand'.upper()
-        box_13B41.scale_x = 1.0
-        box_13B41.scale_y = 1.0
-        box_13B41.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_13B41.operator('kro.move_to_end_220ca', text='', icon='TRIA_RIGHT_BAR', emboss=True, depress=False)
+#         row = layout.row(align=True)
+#         row.prop(tool_settings, "use_keyframe_insert_auto", text="", toggle=True)
+#         sub = row.row(align=True)
+#         sub.active = tool_settings.use_keyframe_insert_auto
+#         layout.separator_spacer()
+# 
+#         box_3CED6 = layout.box()
+#         box_3CED6.alert = False
+#         box_3CED6.enabled = True
+#         box_3CED6.active = True
+#         box_3CED6.use_property_split = False
+#         box_3CED6.use_property_decorate = False
+#         box_3CED6.alignment = 'Expand'.upper()
+#         box_3CED6.scale_x = 1.2400000095367432
+#         box_3CED6.scale_y = 1.0
+#         box_3CED6.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_3CED6.operator('kro.jump_to_endpiont_451b5', text='', icon='TRIA_LEFT_BAR', emboss=True, depress=False)
+#         box_EFCF2 = layout.box()
+#         box_EFCF2.alert = False
+#         box_EFCF2.enabled = True
+#         box_EFCF2.active = True
+#         box_EFCF2.use_property_split = False
+#         box_EFCF2.use_property_decorate = False
+#         box_EFCF2.alignment = 'Expand'.upper()
+#         box_EFCF2.scale_x = 1.2999999523162842
+#         box_EFCF2.scale_y = 1.0
+#         box_EFCF2.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_EFCF2.operator('kro.jump_to_keyframe_802e7', text='', icon='PREV_KEYFRAME', emboss=False, depress=False)
+#         box_DFCA7 = layout.box()
+#         box_DFCA7.alert = False
+#         box_DFCA7.enabled = True
+#         box_DFCA7.active = True
+#         box_DFCA7.use_property_split = False
+#         box_DFCA7.use_property_decorate = False
+#         box_DFCA7.alignment = 'Expand'.upper()
+#         box_DFCA7.scale_x = 1.0
+#         box_DFCA7.scale_y = 1.0
+#         row = layout.row(align=True)
+# 
+#         if not screen.is_animation_playing:
+#             row.operator("screen.animation_play", text="", icon="PLAY_REVERSE").reverse = True
+#             row.operator("screen.animation_play", text="", icon="PLAY")
+#         else:
+#             row.scale_x = 1.43
+#             row.operator("screen.animation_play", text="", icon="PAUSE")
+# 
+#         box_EF2DC = layout.box()
+#         box_EF2DC.alert = False
+#         box_EF2DC.enabled = True
+#         box_EF2DC.active = True
+#         box_EF2DC.use_property_split = False
+#         box_EF2DC.use_property_decorate = False
+#         box_EF2DC.alignment = 'Expand'.upper()
+#         box_EF2DC.scale_x = 1.0
+#         box_EF2DC.scale_y = 1.0
+#         box_EF2DC.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_EF2DC.operator('kro.play_animation_f_11b2c', text='', icon='NEXT_KEYFRAME', emboss=False, depress=False)
+#         box_13B41 = layout.box()
+#         box_13B41.alert = False
+#         box_13B41.enabled = True
+#         box_13B41.active = True
+#         box_13B41.use_property_split = False
+#         box_13B41.use_property_decorate = False
+#         box_13B41.alignment = 'Expand'.upper()
+#         box_13B41.scale_x = 1.0
+#         box_13B41.scale_y = 1.0
+#         box_13B41.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_13B41.operator('kro.move_to_end_220ca', text='', icon='TRIA_RIGHT_BAR', emboss=True, depress=False)
         layout.separator(factor=1.0)
         box_CCB12 = layout.box()
         box_CCB12.alert = True
@@ -2043,130 +2043,130 @@ def kro_add_to_graph_mt_editor_menus_32A6D(self, context):
         box_CCB12.scale_y = 1.0
         box_CCB12.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
         op = box_CCB12.operator('kro.delete_between_2af27', text='', icon='X', emboss=True, depress=False)
-        box_71C97 = layout.box()
-        box_71C97.alert = False
-        box_71C97.enabled = True
-        box_71C97.active = True
-        box_71C97.use_property_split = False
-        box_71C97.use_property_decorate = False
-        box_71C97.alignment = 'Center'.upper()
-        box_71C97.scale_x = 1.2999999523162842
-        box_71C97.scale_y = 1.0
-        box_71C97.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_71C97.operator('kro.delete_selected_d235e', text='', icon_value=_icons['Delete key.png'].icon_id, emboss=True, depress=False)
-        box_3770E = layout.box()
-        box_3770E.alert = False
-        box_3770E.enabled = True
-        box_3770E.active = True
-        box_3770E.use_property_split = False
-        box_3770E.use_property_decorate = False
-        box_3770E.alignment = 'Center'.upper()
-        box_3770E.scale_x = 1.2999999523162842
-        box_3770E.scale_y = 1.0
-        box_3770E.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_3770E.operator('kro.jessica_d_d23f9', text='', icon_value=_icons['spoertylem1.png'].icon_id, emboss=False, depress=False)
-        box_0CFD2 = layout.box()
-        box_0CFD2.alert = False
-        box_0CFD2.enabled = True
-        box_0CFD2.active = True
-        box_0CFD2.use_property_split = False
-        box_0CFD2.use_property_decorate = False
-        box_0CFD2.alignment = 'Center'.upper()
-        box_0CFD2.scale_x = 1.2999999523162842
-        box_0CFD2.scale_y = 1.0
-        box_0CFD2.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_0CFD2.operator('kro.delete_out_43a9b', text='', icon_value=_icons['Ethel.png'].icon_id, emboss=True, depress=False)
-        box_9B722 = layout.box()
-        box_9B722.alert = False
-        box_9B722.enabled = True
-        box_9B722.active = True
-        box_9B722.use_property_split = False
-        box_9B722.use_property_decorate = False
-        box_9B722.alignment = 'Center'.upper()
-        box_9B722.scale_x = 1.2999999523162842
-        box_9B722.scale_y = 1.0
-        box_9B722.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_9B722.operator('kro.delete_marker_key_bea06', text='', icon_value=_icons['Sopqt.png'].icon_id, emboss=False, depress=False)
-        box_0656A = layout.box()
-        box_0656A.alert = False
-        box_0656A.enabled = True
-        box_0656A.active = True
-        box_0656A.use_property_split = False
-        box_0656A.use_property_decorate = False
-        box_0656A.alignment = 'Center'.upper()
-        box_0656A.scale_x = 1.2999999523162842
-        box_0656A.scale_y = 1.0
-        box_0656A.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_0656A.operator('kro.delete_marker_159b9', text='', icon_value=_icons['hamdi.png'].icon_id, emboss=True, depress=False)
-        box_8673D = layout.box()
-        box_8673D.alert = False
-        box_8673D.enabled = True
-        box_8673D.active = True
-        box_8673D.use_property_split = False
-        box_8673D.use_property_decorate = False
-        box_8673D.alignment = 'Expand'.upper()
-        box_8673D.scale_x = 1.2999999523162842
-        box_8673D.scale_y = 1.0
-        box_8673D.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_8673D.operator('kro.delet_channel_f0c68', text='', icon='X', emboss=True, depress=True)
-        layout.separator(factor=1.0)
-        box_87874 = layout.box()
-        box_87874.alert = False
-        box_87874.enabled = True
-        box_87874.active = True
-        box_87874.use_property_split = False
-        box_87874.use_property_decorate = False
-        box_87874.alignment = 'Expand'.upper()
-        box_87874.scale_x = 1.3000000715255737
-        box_87874.scale_y = 1.0
-        box_87874.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_87874.operator('kro.add_mark_31c1f', text='', icon='MOD_FLUIDSIM', emboss=False, depress=False)
-        box_77B4B = layout.box()
-        box_77B4B.alert = False
-        box_77B4B.enabled = True
-        box_77B4B.active = True
-        box_77B4B.use_property_split = False
-        box_77B4B.use_property_decorate = False
-        box_77B4B.alignment = 'Expand'.upper()
-        box_77B4B.scale_x = 1.2999999523162842
-        box_77B4B.scale_y = 1.0
-        box_77B4B.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_77B4B.operator('kro.sellect_marks_e5cea', text='', icon='MARKER', emboss=False, depress=False)
-        box_0096F = layout.box()
-        box_0096F.alert = False
-        box_0096F.enabled = True
-        box_0096F.active = True
-        box_0096F.use_property_split = False
-        box_0096F.use_property_decorate = False
-        box_0096F.alignment = 'Expand'.upper()
-        box_0096F.scale_x = 1.2999998331069946
-        box_0096F.scale_y = 1.0
-        box_0096F.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_0096F.operator('kro.number_mark_a7fb5', text='', icon='USER', emboss=False, depress=False)
-        layout.separator(factor=1.0)
-        box_08A7A = layout.box()
-        box_08A7A.alert = False
-        box_08A7A.enabled = True
-        box_08A7A.active = True
-        box_08A7A.use_property_split = False
-        box_08A7A.use_property_decorate = False
-        box_08A7A.alignment = 'Center'.upper()
-        box_08A7A.scale_x = 1.299999713897705
-        box_08A7A.scale_y = 1.0
-        box_08A7A.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_08A7A.operator('nla.bake', text='', icon_value=_icons['Bread.png'].icon_id, emboss=True, depress=False)
-        
-        box_8CE56 = layout.box()
-        box_8CE56.alert = False
-        box_8CE56.enabled = True
-        box_8CE56.active = True
-        box_8CE56.use_property_split = False
-        box_8CE56.use_property_decorate = False
-        box_8CE56.alignment = 'Expand'.upper()
-        box_8CE56.scale_x = 1.2999999523162842
-        box_8CE56.scale_y = 1.0
-        box_8CE56.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
-        op = box_8CE56.operator('kro.quick_noise_ef272', text='', icon_value=_icons['black-hole.png'].icon_id, emboss=True, depress=False)
+#         box_71C97 = layout.box()
+#         box_71C97.alert = False
+#         box_71C97.enabled = True
+#         box_71C97.active = True
+#         box_71C97.use_property_split = False
+#         box_71C97.use_property_decorate = False
+#         box_71C97.alignment = 'Center'.upper()
+#         box_71C97.scale_x = 1.2999999523162842
+#         box_71C97.scale_y = 1.0
+#         box_71C97.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_71C97.operator('kro.delete_selected_d235e', text='', icon_value=_icons['Delete key.png'].icon_id, emboss=True, depress=False)
+#         box_3770E = layout.box()
+#         box_3770E.alert = False
+#         box_3770E.enabled = True
+#         box_3770E.active = True
+#         box_3770E.use_property_split = False
+#         box_3770E.use_property_decorate = False
+#         box_3770E.alignment = 'Center'.upper()
+#         box_3770E.scale_x = 1.2999999523162842
+#         box_3770E.scale_y = 1.0
+#         box_3770E.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_3770E.operator('kro.jessica_d_d23f9', text='', icon_value=_icons['spoertylem1.png'].icon_id, emboss=False, depress=False)
+#         box_0CFD2 = layout.box()
+#         box_0CFD2.alert = False
+#         box_0CFD2.enabled = True
+#         box_0CFD2.active = True
+#         box_0CFD2.use_property_split = False
+#         box_0CFD2.use_property_decorate = False
+#         box_0CFD2.alignment = 'Center'.upper()
+#         box_0CFD2.scale_x = 1.2999999523162842
+#         box_0CFD2.scale_y = 1.0
+#         box_0CFD2.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_0CFD2.operator('kro.delete_out_43a9b', text='', icon_value=_icons['Ethel.png'].icon_id, emboss=True, depress=False)
+#         box_9B722 = layout.box()
+#         box_9B722.alert = False
+#         box_9B722.enabled = True
+#         box_9B722.active = True
+#         box_9B722.use_property_split = False
+#         box_9B722.use_property_decorate = False
+#         box_9B722.alignment = 'Center'.upper()
+#         box_9B722.scale_x = 1.2999999523162842
+#         box_9B722.scale_y = 1.0
+#         box_9B722.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_9B722.operator('kro.delete_marker_key_bea06', text='', icon_value=_icons['Sopqt.png'].icon_id, emboss=False, depress=False)
+#         box_0656A = layout.box()
+#         box_0656A.alert = False
+#         box_0656A.enabled = True
+#         box_0656A.active = True
+#         box_0656A.use_property_split = False
+#         box_0656A.use_property_decorate = False
+#         box_0656A.alignment = 'Center'.upper()
+#         box_0656A.scale_x = 1.2999999523162842
+#         box_0656A.scale_y = 1.0
+#         box_0656A.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_0656A.operator('kro.delete_marker_159b9', text='', icon_value=_icons['hamdi.png'].icon_id, emboss=True, depress=False)
+#         box_8673D = layout.box()
+#         box_8673D.alert = False
+#         box_8673D.enabled = True
+#         box_8673D.active = True
+#         box_8673D.use_property_split = False
+#         box_8673D.use_property_decorate = False
+#         box_8673D.alignment = 'Expand'.upper()
+#         box_8673D.scale_x = 1.2999999523162842
+#         box_8673D.scale_y = 1.0
+#         box_8673D.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_8673D.operator('kro.delet_channel_f0c68', text='', icon='X', emboss=True, depress=True)
+#         layout.separator(factor=1.0)
+#         box_87874 = layout.box()
+#         box_87874.alert = False
+#         box_87874.enabled = True
+#         box_87874.active = True
+#         box_87874.use_property_split = False
+#         box_87874.use_property_decorate = False
+#         box_87874.alignment = 'Expand'.upper()
+#         box_87874.scale_x = 1.3000000715255737
+#         box_87874.scale_y = 1.0
+#         box_87874.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_87874.operator('kro.add_mark_31c1f', text='', icon='MOD_FLUIDSIM', emboss=False, depress=False)
+#         box_77B4B = layout.box()
+#         box_77B4B.alert = False
+#         box_77B4B.enabled = True
+#         box_77B4B.active = True
+#         box_77B4B.use_property_split = False
+#         box_77B4B.use_property_decorate = False
+#         box_77B4B.alignment = 'Expand'.upper()
+#         box_77B4B.scale_x = 1.2999999523162842
+#         box_77B4B.scale_y = 1.0
+#         box_77B4B.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_77B4B.operator('kro.sellect_marks_e5cea', text='', icon='MARKER', emboss=False, depress=False)
+#         box_0096F = layout.box()
+#         box_0096F.alert = False
+#         box_0096F.enabled = True
+#         box_0096F.active = True
+#         box_0096F.use_property_split = False
+#         box_0096F.use_property_decorate = False
+#         box_0096F.alignment = 'Expand'.upper()
+#         box_0096F.scale_x = 1.2999998331069946
+#         box_0096F.scale_y = 1.0
+#         box_0096F.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_0096F.operator('kro.number_mark_a7fb5', text='', icon='USER', emboss=False, depress=False)
+#         layout.separator(factor=1.0)
+#         box_08A7A = layout.box()
+#         box_08A7A.alert = False
+#         box_08A7A.enabled = True
+#         box_08A7A.active = True
+#         box_08A7A.use_property_split = False
+#         box_08A7A.use_property_decorate = False
+#         box_08A7A.alignment = 'Center'.upper()
+#         box_08A7A.scale_x = 1.299999713897705
+#         box_08A7A.scale_y = 1.0
+#         box_08A7A.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_08A7A.operator('nla.bake', text='', icon_value=_icons['Bread.png'].icon_id, emboss=True, depress=False)
+#         
+#         box_8CE56 = layout.box()
+#         box_8CE56.alert = False
+#         box_8CE56.enabled = True
+#         box_8CE56.active = True
+#         box_8CE56.use_property_split = False
+#         box_8CE56.use_property_decorate = False
+#         box_8CE56.alignment = 'Expand'.upper()
+#         box_8CE56.scale_x = 1.2999999523162842
+#         box_8CE56.scale_y = 1.0
+#         box_8CE56.operator_context = "INVOKE_DEFAULT" if True else "EXEC_DEFAULT"
+#         op = box_8CE56.operator('kro.quick_noise_ef272', text='', icon_value=_icons['black-hole.png'].icon_id, emboss=True, depress=False)
 
 
 
@@ -2179,55 +2179,55 @@ classes = (
 
 
 
-    FRO_OT_Setup_Handle_R_159B9,
-    FRO_OT_Setup_Handle_L_Bea06,
-    FRO_MT_Custom_Menu,
+    # FRO_OT_Setup_Handle_R_159B9,
+    # FRO_OT_Setup_Handle_L_Bea06,
+    # FRO_MT_Custom_Menu,
 
 
-    FRO_OT_Select_After_Before_A83F0,
-    FRO_OT_Select_All_2Af27,
-    FRO_OT_Select_After_Dd961,
-    FRO_OT_Select_Before_96Bb3,
-    FRO_OT_Smart_Select_36C8D,
-    FRO_MT_CustomMenu,
+    # FRO_OT_Select_After_Before_A83F0,
+    # FRO_OT_Select_All_2Af27,
+    # FRO_OT_Select_After_Dd961,
+    # FRO_OT_Select_Before_96Bb3,
+    # FRO_OT_Smart_Select_36C8D,
+    # FRO_MT_CustomMenu,
 
-    FrameRangeToolsPopupOperator,
-    SetupFrameRangePopupOperator,
-    SetFrameRangePopupOperator,
-    SetFrameRangeFromKeyframesOperator,
-    SetFrameRangeFromCurrentFrameOperator,
+    # FrameRangeToolsPopupOperator,
+    # SetupFrameRangePopupOperator,
+    # SetFrameRangePopupOperator,
+    # SetFrameRangeFromKeyframesOperator,
+    # SetFrameRangeFromCurrentFrameOperator,
     FRO_OT_D_Snapkey_A83F0,
-    FRO_OT_Smart_Select_Dd961,
+    # FRO_OT_Smart_Select_Dd961,
 
 
-    FRO_OT_Move_Keyframe_96Bb3,
-    FRO_OT_Select_Group_36C8D,
-    FRO_OT_Jump_To_Endpiont_451B5,
-    FRO_OT_Jump_To_Keyframe_802E7,    
-    FRO_OT_Play_Animation_F_11B2C,
-    FRO_OT_Move_To_End_220Ca,
+    # FRO_OT_Move_Keyframe_96Bb3,
+    # FRO_OT_Select_Group_36C8D,
+    # FRO_OT_Jump_To_Endpiont_451B5,
+    # FRO_OT_Jump_To_Keyframe_802E7,    
+    # FRO_OT_Play_Animation_F_11B2C,
+    # FRO_OT_Move_To_End_220Ca,
 
 
-    FRO_OT_Jessica_D_D23F9,
-    FRO_OT_Delete_Out_43A9B,
-    FRO_OT_Delete_Marker_159B9,
-    FRO_OT_Delete_Marker_Key_Bea06,
+    # FRO_OT_Jessica_D_D23F9,
+    # FRO_OT_Delete_Out_43A9B,
+    # FRO_OT_Delete_Marker_159B9,
+    # FRO_OT_Delete_Marker_Key_Bea06,
     FRO_OT_Delete_Between_2Af27,
-    FRO_OT_Delete_Selected_D235E,
-    FRO_OT_Delet_Channel_F0C68,
+    # FRO_OT_Delete_Selected_D235E,
+    # FRO_OT_Delet_Channel_F0C68,
 
 
-    FRO_OT_Add_Mark_31C1F,
-    FRO_OT_Sellect_Marks_E5Cea,
-    FRO_OT_Number_Mark_A7Fb5,
-    FRO_OT_Quick_Noise_Ef272,
+    # FRO_OT_Add_Mark_31C1F,
+    # FRO_OT_Sellect_Marks_E5Cea,
+    # FRO_OT_Number_Mark_A7Fb5,
+    # FRO_OT_Quick_Noise_Ef272,
 
 
-    FRO_OT_Time_Line_76Ffa,    
-    FRO_OT_Nla_Window_18De2,
-    FRO_OT_Action_Editor_5E054,
-    GRAPH_OT_reload_all_icons,
-    FRO_OT_Toggle_Editor_Buttons, 
+    # FRO_OT_Time_Line_76Ffa,    
+    # FRO_OT_Nla_Window_18De2,
+    # FRO_OT_Action_Editor_5E054,
+    # GRAPH_OT_reload_all_icons,
+    # FRO_OT_Toggle_Editor_Buttons, 
 )
 
 
@@ -2245,9 +2245,9 @@ def register():
     
     
     
-    bpy.types.GRAPH_MT_editor_menus.append(draw_menu)
-    bpy.types.GRAPH_MT_editor_menus.append(menu_func_1)
-    bpy.types.GRAPH_MT_editor_menus.append(menu_func)
+    # bpy.types.GRAPH_MT_editor_menus.append(draw_menu)
+    # bpy.types.GRAPH_MT_editor_menus.append(menu_func_1)
+    # bpy.types.GRAPH_MT_editor_menus.append(menu_func)
     bpy.types.GRAPH_MT_editor_menus.prepend(kro_add_to_graph_mt_editor_menus_F5DA3)
     
     bpy.types.GRAPH_MT_editor_menus.append(kro_add_to_graph_mt_editor_menus_32A6D)
@@ -2352,9 +2352,9 @@ def unregister():
         bpy.utils.unregister_class(cls)
 
     
-    bpy.types.GRAPH_MT_editor_menus.remove(draw_menu)
-    bpy.types.GRAPH_MT_editor_menus.remove(menu_func_1)
-    bpy.types.GRAPH_MT_editor_menus.remove(menu_func)
+    # bpy.types.GRAPH_MT_editor_menus.remove(draw_menu)
+    # bpy.types.GRAPH_MT_editor_menus.remove(menu_func_1)
+    # bpy.types.GRAPH_MT_editor_menus.remove(menu_func)
     bpy.types.GRAPH_MT_editor_menus.remove(kro_add_to_graph_mt_editor_menus_F5DA3)
     
     
